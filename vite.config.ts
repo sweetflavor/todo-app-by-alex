@@ -41,11 +41,12 @@ export default defineConfig({
     }),
     AutoImport({
       imports: [
+        'pinia',
         '@vueuse/head',
         '@vueuse/core',
         'vue',
         'vue-router',
-        'vitest'
+        'vitest',
       ],
       dts: 'src/auto-import.d.ts'
     })

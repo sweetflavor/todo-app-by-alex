@@ -1,10 +1,11 @@
 <script setup lang="ts">
+import TodoApp from "./containers/TodoApp.vue";
 </script>
 
 <template>
   <div class="todo-root">
     <div class="app">
-      <h1>app</h1>
+      <TodoApp />
     </div>
   </div>
 </template>
